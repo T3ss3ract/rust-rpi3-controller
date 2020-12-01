@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="a3fd6eaf-24a6-45b8-9e42-d31ed68a1f62" name="wex2" url="http://10.0.0.63">
+        <fileTransfer host="10.0.0.63" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="b42e55de-2aa7-4fb0-9ae6-649dd5487326" name="bigbox" url="http://192.168.86.21">
+        <fileTransfer rootFolder="/home/pi/rpi3-rust-samples" host="192.168.86.21" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
